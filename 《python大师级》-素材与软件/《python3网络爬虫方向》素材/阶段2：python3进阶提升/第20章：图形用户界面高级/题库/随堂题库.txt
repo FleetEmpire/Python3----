@@ -1,0 +1,106 @@
+1.对entry、text组件的各个属性进行探索，进行测试，并总结，可以在原来的word中进行完善；
+
+
+
+2.通过以上所学习的课程，使用tkinter写一个记事本工具；
+
+
+
+
+
+
+
+
+
+
+
+
+
+参考答案
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+1.对entry、text组件的各个属性进行探索，进行测试，并总结，可以在原来的word中进行完善；
+自主探究，不含答案
+
+
+2.通过以上所学习的课程，使用tkinter写一个记事本工具；
+
+以下是一个最简单的记事本。
+from tkinter import *
+
+root = Tk()
+root.title('我的记事本')
+mi = StringVar()
+Label(text='请输入...').pack()
+
+te = Text(height=30, width=100)
+te.pack()
+Label(text='            File name          ').pack(side=LEFT)
+Entry(textvariable=mi).pack(side=LEFT)
+mi.set('*.txt')
+
+
+def save():
+    t = te.get('0.0', '10.0')
+    f = open(mi.get(), 'w')
+    f.write(t)
+
+
+Button(text='Save', command=save).pack(side=RIGHT)
+Button(text='Exit', command=root.quit).pack(side=RIGHT)
+
+root.mainloop()
+
+如果希望写一个更复杂的记事本，可以参看以下网址链接：
+https://blog.csdn.net/mr_muli/article/details/78803842
+该链接来自CSDN 木里先森
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

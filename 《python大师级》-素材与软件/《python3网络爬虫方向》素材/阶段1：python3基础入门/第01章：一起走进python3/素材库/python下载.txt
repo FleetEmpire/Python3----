@@ -1,0 +1,13 @@
+python的下载方式有以下几种：
+
+下载方式一：
+python官网：https://www.python.org/
+
+下载方式二：
+windows系统下载：
+python3.7.4-64位：https://hero123.oss-cn-shanghai.aliyuncs.com/python_sucaiku/python-3.7.4-64%E4%BD%8D.exe
+python3.7.4-32位：https://hero123.oss-cn-shanghai.aliyuncs.com/python_sucaiku/python-3.7.4-32%E4%BD%8D.exe
+
+macOs系统下载：
+python3.7.4-64/32位【mac OS10.6及以上】：https://hero123.oss-cn-shanghai.aliyuncs.com/python_sucaiku/python-3.7.4-macosx10.6.pkg
+python3.7.4-64位【mac OS10.9及以上】：https://hero123.oss-cn-shanghai.aliyuncs.com/python_sucaiku/python-3.7.4-macosx10.9.pkg

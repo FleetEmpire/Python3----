@@ -1,0 +1,112 @@
+1.选择以下正确的选项（）
+A.js是由浏览器解释运行；
+B,js是一门强数据类型语言；
+C.js的变量名称是以字母、下划线、美元符号作为开头
+D.js对大小写敏感，没有严格的缩进
+
+
+
+2.总结js语言使用的三种方式：行间、内嵌、外联
+
+
+
+3.自己编写一个网页，通过点击按钮给标签更换不同属性，和内容
+答案：首先需要有一个input button组件，并且通过onclick的属性，调用js代码
+js代码的调用通过三种方式任意一种即可，编写js的逻辑结构
+
+
+
+
+
+
+
+参考答案：
+---------------------------------------------------------------------------------------------------------------------------------------------
+1.选择以下正确的选项（）
+A.js是由浏览器解释运行；
+B,js是一门强数据类型语言；
+C.js的变量名称是以字母、下划线、美元符号作为开头
+D.js对大小写敏感，没有严格的缩进
+
+答案：ACD
+
+2.总结js语言使用的三种方式：行间、内嵌、外联
+答案：为自主总结内容，答案可在随堂的ppt中进行查找
+
+
+3.自己编写一个网页，通过点击按钮给标签更换不同属性，和内容
+答案：首先需要有一个input button组件，并且通过onclick的属性，调用js代码
+js代码的调用通过三种方式任意一种即可，编写js的逻辑结构：代码如下所示：
+
+
+ function valueChange(){
+    var divstyle = document.getElementById("div01");
+    alert(divstyle.style.color);
+    divstyle.style.color = "blue";
+
+    var baidu = document.getElementById("baidu");
+    alert(baidu.href);
+    baidu.href = "https://www.baidu.com/";
+ }
+
+
+
+<body>
+<input type = "button" value = "点击我" onclick = " valueChange()">
+<div id="div01" style="color:red">这是一个div标签</div>
+<a href="#" id="baidu">百度</a>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

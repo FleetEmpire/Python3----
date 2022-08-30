@@ -1,0 +1,19 @@
+
+
+
+
+#biaoti{
+    color:green;
+}
+
+.blue{
+font-size:20px;
+	color:blue;
+}
+/*只应用于div标签下的span标签*/
+        div span{
+               /* 改变背景颜色 */
+            background-color: #2459a2;
+            /* 改变字体颜色 */
+            color: white;
+        }

@@ -1,0 +1,2 @@
+打开的时候使用谷歌浏览器可以实现自动翻译的效果：
+https://www.pygame.org/docs/ref/pygame.html

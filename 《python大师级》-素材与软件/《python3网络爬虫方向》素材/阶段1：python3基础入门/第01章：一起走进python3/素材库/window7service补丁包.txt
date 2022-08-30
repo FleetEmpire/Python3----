@@ -1,0 +1,21 @@
+window7系统搭建集成开发环境
+
+第一步：首先确定是否安装
+Service Pack 1 补丁包，右键单击“我的电脑”→“属性”，看到“Service Pack 1 ”说明安装成功
+
+第二步：如何进行安装
+https://support.microsoft.com/zh-cn/help/15090/windows-7-install-service-pack-1-sp1
+
+第三步：安装过程中的提示
+提示 “api-ms-win-crt-runtime-l1-1-0.dll 丢失”需要参考一下步骤解决
+          
+	解决1：方案如下：
+	http://xinzhi.wenda.so.com/a/1523159536615435
+
+	解决2：方案如下：
+	1.链接下载：https://hero123.oss-cn-shanghai.aliyuncs.com/python_sucaiku/api-ms-win-crt-runtime-l1-1-0.dll
+	2. 直接拷贝该文件到系统目录里：C:\Windows\System32目录下，64位系统为：C:\Windows\SysWOW64 
+	3. 最后在开始菜单中找到“运行(R)” 或者按快捷键“Win+R”，在弹出的框内输入“regsvr32 api-ms-win-crt-runtime-l1-1-0.dll”(不含双引号)，回车即可解决错误提示
+
+	解决3：方案如下：
+	https://blog.csdn.net/fuchaosz/article/details/78996544

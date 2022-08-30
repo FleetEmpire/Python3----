@@ -1,0 +1,2 @@
+打开的时候使用谷歌浏览器可以实现自动翻译的效果：
+https://docs.python.org/zh-cn/3.7/

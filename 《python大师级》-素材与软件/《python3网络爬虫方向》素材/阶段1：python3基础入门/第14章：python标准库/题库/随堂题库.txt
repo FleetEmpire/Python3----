@@ -1,0 +1,130 @@
+1.自定义一个类，类名为Computers，并将这个类放在一个一个computers文件夹中，在这个类中封装几个数学处理的函数
+（可以自定义几个关于数学的函数）
+尝试创建一个text.py文件，通过这个文件访问调用Computers，模块中的方法。
+
+
+2.尝试输出当前如下格式日期：
+比如：2019年 12 月12 日
+
+
+
+3.尝试自我学习random模块
+
+
+
+
+
+
+参考答案：
+---------------------------------------------------------------------------------------------------------------------------------------------
+1.自定义一个类，类名为Computers，并将这个类放在一个一个computers文件夹中，在这个类中封装几个数学处理的函数
+（可以自定义几个关于数学的函数）
+尝试创建一个text.py文件，通过这个文件访问调用Computers，模块中的方法。
+
+import computers.Computers as com
+c = com.Computers("HUAWEI",1999,"black",14)
+c.print_word()
+
+class Computers:
+    #初始化属性
+    def __init__(self,brand,price,color,size):
+        self.brand = brand
+        self.price = price
+        self.color = color
+        self.sizi = size
+
+    #定义方法
+    def print_word(self):
+        print("打字")
+    def install_softs(self,chip):
+        print(self.brand+"安装软件"+chip)
+
+2.尝试输出当前如下格式日期：
+比如：2019年 12 月12 日
+
+from datetime import datetime
+dns = datetime.now().strftime("%Y年%m月%d日")
+print(dns)
+
+
+3.尝试自我学习random模块
+自我学习模块，不提供答案
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
